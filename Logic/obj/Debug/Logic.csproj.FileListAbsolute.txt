@@ -7,3 +7,5 @@ C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\bin\Debug\EntityF
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\obj\Debug\Logic.dll
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\obj\Debug\Logic.pdb
+C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\bin\Debug\AutoMapper.dll
+C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\bin\Debug\AutoMapper.xml

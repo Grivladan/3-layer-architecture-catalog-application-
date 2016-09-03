@@ -8,3 +8,5 @@ C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\bin\Debug\En
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\bin\Debug\AutoMapper.dll
+C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\bin\Debug\AutoMapper.xml

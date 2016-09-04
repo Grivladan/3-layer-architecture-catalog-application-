@@ -10,7 +10,7 @@ using Logic.Interfaces;
 
 namespace Logic.Service
 {
-    class ProductService : IProductService
+    public class ProductService : IProductService
     {
         private readonly IUnitOfWork db;
 

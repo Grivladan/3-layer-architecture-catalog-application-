@@ -8,7 +8,7 @@ using Logic.Interfaces;
 
 namespace Logic.Service
 {
-    class CategoryService : ICategoryService
+    public class CategoryService : ICategoryService
     {
         private readonly IUnitOfWork db;
 

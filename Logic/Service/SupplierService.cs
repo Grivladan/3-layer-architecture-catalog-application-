@@ -9,7 +9,7 @@ using Logic.Interfaces;
 
 namespace Logic.Service
 {
-    class SupplierService : ISupplierService
+    public class SupplierService : ISupplierService
     {
         private readonly IUnitOfWork db;
 

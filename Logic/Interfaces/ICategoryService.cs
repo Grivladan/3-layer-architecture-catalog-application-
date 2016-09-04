@@ -3,7 +3,7 @@ using Logic.DTO;
 
 namespace Logic.Interfaces
 {
-    interface ICategoryService
+    public interface ICategoryService
     {
         IEnumerable<CategoryDto> GetAll();
         CategoryDto GetById(int id);

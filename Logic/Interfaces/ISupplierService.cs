@@ -4,7 +4,7 @@ using Logic.DTO;
 
 namespace Logic.Interfaces
 {
-    interface ISupplierService
+    public interface ISupplierService
     {
         IEnumerable<SupplierDto> GetAll();
         SupplierDto GetById(int id);

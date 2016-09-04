@@ -9,3 +9,5 @@ C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\obj\Debug\Logic.d
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\obj\Debug\Logic.pdb
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\bin\Debug\AutoMapper.dll
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\bin\Debug\AutoMapper.xml
+C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\bin\Debug\Ninject.dll
+C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\Logic\bin\Debug\Ninject.xml

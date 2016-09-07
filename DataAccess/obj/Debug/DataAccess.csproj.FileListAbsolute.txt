@@ -10,3 +10,15 @@ C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\obj\Debug\Da
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\bin\Debug\AutoMapper.dll
 C:\Users\Владислав\Desktop\Epam C#\DatabaseTask\DataAccess\bin\Debug\AutoMapper.xml
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\AutoMapper.dll
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\AutoMapper.xml
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Владислав\Desktop\Epam C#\3-layer-architecture-catalog-application-\DataAccess\obj\Debug\DataAccess.pdb

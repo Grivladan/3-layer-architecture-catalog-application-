@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{4541DA78-44EE-4C73-A105-25C9D8558010}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{DA668EEB-8402-41F6-8562-455888AAE2DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4541DA78-44EE-4C73-A105-25C9D8558010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4541DA78-44EE-4C73-A105-25C9D8558010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4541DA78-44EE-4C73-A105-25C9D8558010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA668EEB-8402-41F6-8562-455888AAE2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA668EEB-8402-41F6-8562-455888AAE2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA668EEB-8402-41F6-8562-455888AAE2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA668EEB-8402-41F6-8562-455888AAE2DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

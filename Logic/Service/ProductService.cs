@@ -4,6 +4,7 @@ using System.Linq;
 using AutoMapper;
 using DataAccess.Entities;
 using DataAccess.Interfaces;
+using DataAccess.Repository;
 using Logic.DTO;
 using Logic.Infrastructure;
 using Logic.Interfaces;
@@ -14,9 +15,9 @@ namespace Logic.Service
     {
         private readonly IUnitOfWork db;
 
-        public ProductService(IUnitOfWork uow)
+        public ProductService(string connectionString)
         {
-            db = uow;
+            db = new EFUnitOfWork(connectionString);
         }
 
         public IEnumerable<ProductDto> GetAll()

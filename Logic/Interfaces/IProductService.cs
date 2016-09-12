@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using DataAccess.Entities;
 using Logic.DTO;
 
@@ -13,7 +14,7 @@ namespace Logic.Interfaces
         void Delete(int id);
         IEnumerable<ProductDto> GetByCategory(Category category);
         IEnumerable<ProductDto> GetBySupplier(Supplier supplier);
-        IEnumerable<ProductDto> GetByUserCondition();
+        IEnumerable<ProductDto> GetByUserCondition(Func<Product, bool> predicate);
         void Dispose();
     }
 

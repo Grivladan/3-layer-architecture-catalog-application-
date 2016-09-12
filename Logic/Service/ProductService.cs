@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using AutoMapper;
@@ -15,9 +16,9 @@ namespace Logic.Service
     {
         private readonly IUnitOfWork db;
 
-        public ProductService(string connectionString)
+        public ProductService(IUnitOfWork uow)
         {
-            db = new EFUnitOfWork(connectionString);
+            db = uow;
         }
 
         public IEnumerable<ProductDto> GetAll()
@@ -68,7 +69,8 @@ namespace Logic.Service
         public IEnumerable<ProductDto> GetByCategory(Category category)
         {
             Mapper.Initialize(cfg => cfg.CreateMap<Product, ProductDto>());
-            return Mapper.Map<IEnumerable<Product>, List<ProductDto>>(db.Products.GetAll().Where(x => x.CategoryId == category.Id));
+            return Mapper.Map<IEnumerable<Product>, List<ProductDto>>(db.Products.GetAll().Where(x => x.Category.Name == category.Name));
+            return  Mapper.Map<IEnumerable<Product>, List<ProductDto>>(db.Products.GetAll().Where(x => x.Category.Name == category.Name));
         }
 
         public IEnumerable<ProductDto> GetBySupplier(Supplier supplier)
@@ -77,9 +79,13 @@ namespace Logic.Service
             return Mapper.Map<IEnumerable<Product>, List<ProductDto>>(db.Products.GetAll().Where(x => x.Suppliers.Contains(supplier)));
         }
 
-        public IEnumerable<ProductDto> GetByUserCondition()
+        public IEnumerable<ProductDto> GetByUserCondition(Func<Product, bool> predicate )
         {
-            throw new System.NotImplementedException();
+            var products = db.Products.GetAll().Where(predicate);
+            if (products == null)
+                throw new ValidationException("Products doesn't exist", "");
+            Mapper.Initialize(cfg => cfg.CreateMap<Product, ProductDto>());
+            return Mapper.Map<IEnumerable<Product>, List<ProductDto>>(products);
         }
 
         public void Dispose()

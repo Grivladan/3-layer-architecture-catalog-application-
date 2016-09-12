@@ -14,9 +14,9 @@ namespace Logic.Service
     {
         private readonly IUnitOfWork db;
 
-        public SupplierService(string connectionString)
+        public SupplierService(IUnitOfWork uow)
         {
-            db = new EFUnitOfWork(connectionString);
+            db = uow;
         }
 
         public IEnumerable<SupplierDto> GetAll()

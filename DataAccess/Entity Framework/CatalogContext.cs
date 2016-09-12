@@ -9,14 +9,11 @@ namespace DataAccess.Entity_Framework
         public DbSet<Product> Products { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
 
-        static CatalogContext()
-        {
-            Database.SetInitializer<CatalogContext>(new CatalogDbInitializer());
-        }
-
         public CatalogContext(string connectionString)
             : base(connectionString)
         {
+            base.Configuration.ProxyCreationEnabled = true;
+            base.Configuration.LazyLoadingEnabled = true;
         }
     }
 }
